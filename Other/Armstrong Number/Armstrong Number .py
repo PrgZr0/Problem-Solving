@@ -1,15 +1,15 @@
 import math
 while(1):
-   a=raw_input("Enter an Number :- ")
+   num=raw_input("Enter an Number :- ")
    ls=[]
-   b=0
-   e=0
-   if (int(a)<=1000000000):
-      for i in range(0,len(a)):
-          ls.append(int(a[i]))
-          b=len(a)
-          e+=math.pow(ls[i], b)
-      if (e==int(a)):
+   count=0
+   result=0
+   if (int(num)<=1000000000):
+      for i in range(0,len(num)):
+          ls.append(int(num[i]))
+          count=len(num)
+          result+=math.pow(ls[i], count)
+      if (result==int(num)):
          print("Armstrong")
       else:
          print("Not Armstrong")
