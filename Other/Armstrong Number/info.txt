@@ -1,0 +1,21 @@
+Input 
+-----
+The first line of input is an integer, T that determines the number of test cases. Each of the next T lines contain a positive integer N, where N = 1000000000.
+
+----
+Output
+--------
+ For each line of input, there will be one line of output. If N is an Armstrong number print ‘Armstrong’, otherwise print ‘Not Armstrong’ (without the quotes).
+----
+Sample Input 
+----------
+3
+153
+2732
+54748
+
+Sample Output 
+---------------
+Armstrong
+Not Armstrong
+Armstrong
