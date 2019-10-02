@@ -1,3 +1,7 @@
+#@Anthor : Prog0Mohamed
+#@Date : 12:00 AM - 1/10/2019
+#@Info : Armstrong Number
+
 import math
 while(1):
    num=raw_input("Enter an Number :- ")
